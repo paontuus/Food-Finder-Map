@@ -16,7 +16,7 @@ var MapApp = ( function() {
             addButton.addEventListener("click", ajaxCalls);
     }
     function createMap(){
-       
+        
         theMap = L.map("map");
         theMap.locate({setView: true, maxZoom: 14});
 
